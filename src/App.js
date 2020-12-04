@@ -1,13 +1,20 @@
 import React from 'react'
 
-import { Button } from '@material-ui/core';
+import { Button, TextField } from '@material-ui/core';
 
 const App = props => {
     return (
         <div>
-            <Button>
+            <Button
+                color='primary'
+                variant='contained'
+            >
                 submit
             </Button>
+            <TextField
+                label='email'
+                variant='outlined'
+            />
         </div>
     )
 }
