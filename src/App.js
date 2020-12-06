@@ -1,6 +1,7 @@
 import React from 'react'
 
 import FullScreenCircuralProgress from './components/FullScreenCircuralProgress'
+import ScrollToTop from './components/ScrollToTop'
 import Snackbars from './components/Snackbars'
 
 const App = props => {
@@ -8,6 +9,7 @@ const App = props => {
         <div>
             <FullScreenCircuralProgress />
             <Snackbars />
+            <ScrollToTop />
         </div>
     )
 }
