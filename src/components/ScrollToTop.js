@@ -35,7 +35,7 @@ const ScrollToTop = props => {
                     color='primary'
                     size='small'
                 >
-                    ^
+                   <KeyboardArrowUpIcon />
                 </Fab>
             </div>
         </Zoom>
