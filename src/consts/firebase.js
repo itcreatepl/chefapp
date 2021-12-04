@@ -1,0 +1,1 @@
+export const URL = 'https://chefapp-8bafc-default-rtdb.europe-west1.firebasedatabase.app/'
